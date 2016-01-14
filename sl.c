@@ -101,6 +101,7 @@ int main(int argc, char *argv[])
             option(argv[i] + 1);
         }
     }
+    RAINBOW = 1;
     initscr();
     signal(SIGINT, SIG_IGN);
     noecho();
